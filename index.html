@@ -1,6 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+	   <script src="js/jquery-1.6.js" type="text/javascript"></script>
+       <script src="js/cookiesHelper.js" type="text/javascript"></script>
+       <script src="js/dict.js" type="text/javascript"></script>
+       <script type="text/javascript">
+          function chgLang() {
+          	if ($("#ddlSomoveLanguage option:selected").val() == "en") {
+                  var body1= setEnglish($("#body1").html());
+                  var body2= setEnglish($("#body2").html());
+                  $("#body1").html(body1);
+                  $("#body2").html(body2);
+              }
+            else if ($("#ddlSomoveLanguage option:selected").val() == "ch") {
+                  var body1= setChinese($("#body1").html());
+                  var body2= setChinese($("#body2").html());
+                  $("#body1").html(body1);
+                  $("#body2").html(body2);
+              }
+          }
+          
+       </script>
+	    <link rel="stylesheet" type="text/css" href="css/zzsc.css" />
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 		<meta charset="utf-8">
 		<title>ZOOMBIN</title>
 		<link rel="icon" href="images/favicon.ico">
@@ -78,16 +100,16 @@
 	<body class="">
 <!--==============================header=================================-->
 		<header class="page1">
-			<div class="container_12">
+			<div class="container_12" id="body1">
 				<div class="grid_12">
 					<h1><a href="#" onClick="goToByScroll('page1'); return false;"><img src="images/logo.png" alt="Gerald Harris attorney at law"></a></h1>
 					<div class="menu_block">
 						<nav class="">
 							<ul class="sf-menu">
 								<li class="current men"><a onClick="goToByScroll('page1'); return false;" href="#">首页 </a> <strong class="hover"></strong></li>
-								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">关于</a><strong class="hover"></strong></li>
 								<li class=" men2"><a onClick="goToByScroll('page3'); return false;" href="#">服务</a> <strong class="hover"></strong></li>
 								<li class=" men3"><a onClick="goToByScroll('page4'); return false;" href="#">客户</a> <strong class="hover"></strong></li>
+								<li class="men1"><a onClick="goToByScroll('page2'); return false;" href="#">关于</a><strong class="hover"></strong></li>
 								<li class=" men4"><a onClick="goToByScroll('page5'); return false;" href="#">联系</a> <strong class="hover"></strong></li>
 							</ul>
 						</nav>
@@ -96,16 +118,52 @@
 				</div>
 				<div class="clear"></div>
 			</div>
+			<div style="float:right;width:80px;margin-top:-100px;margin-right:20px">
+				<select id="ddlSomoveLanguage" onchange="return chgLang();">
+                   <option value="ch">中文</option>
+                   <option value="en">English</option>
+               </select>
+			</div>
 		</header>
+
+	  <div id="body2">
 <!--=======content================================-->
 		<div id="page1" class="content">
 			<div class="ic">More Website Templates @ TemplateMonster.com - September 9, 2013!</div>
-			<div class="container_12">
+
+	<div class="pro-switch" style="margin:auto">
+		<div class="slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<div class="img"><img src="images/img1.jpg" height="450" width"960" alt="" /></div>
+					</li>
+					<li>
+						<div class="img"><img src="images/img2.jpg" height="450" width"960" alt="" /></div>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+<script defer src="js/slider.js"></script> 
+<script type="text/javascript">
+    $(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+			<!-- <div class="container_12">
 				<div class="grid_12">
-					<div class="slider_wrapper">
+					<div class="slider_wrapper" style="height:550px">
 						<ul class="items">
                             <li>
-                                <img src="images/img1.jpg" alt=""><div class="caption banner"><h2></h2></div>
+                                <img src="images/img1.jpg" alt="">
+                                <div class="caption banner"><h2></h2></div>
                             </li>
                             <li>
                                 <img src="images/img2.jpg" alt=""><div class="caption banner"><h2></h2></div>
@@ -114,11 +172,110 @@
                                 <img src="images/img3.jpg" alt=""><div class="caption banner"><h2></h2></div>
                             </li>
 						</ul>
+                        <ul class="flex-direction-nav">
+                         <li>
+                         	<a href="#" class="flex-prev">Previous</a>
+                         </li>
+                        <li>
+                         	<a href="#" class="flex-next">Next</a>
+                         </li>	
+                        </ul>
 					</div>
-					<div class="socials">
-						<a href="#"></a>
-						<a href="#"></a>
-                        <a href="#"></a>
+				</div>
+			</div> -->
+		</div>
+		<div id="page3" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="slogan">
+						<h3>我们的服务</h3>
+						<div class="text1" style="padding-top:30px">
+							随需而动，创造价值
+						</div>
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="height: 215px">
+						<img src="images/ios.png" alt="">
+						<div class="text1"><a href="#">IOS软件</a></div>IOS APP定制开发与维护
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="height: 215px">
+						<img src="images/android .png" alt="">
+						<div class="text1"><a href="#">Android软件</a></div>Android APP定制开发与维护
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="height: 215px">
+						<img src="images/web.png" alt="">
+						<div class="text1"><a href="#">PC软件</a></div>网站定制开发与维护
+					</div>
+				</div>
+				<div class="grid_3">
+					<div class="box maxheight1" style="height: 215px">
+						<img src="images/wx.png" alt="">
+						<div class="text1"><a href="#">微信开发</a></div>微信公众账号定制开发与维护
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="page4" class="content">
+			<div class="container_12">
+				<div class="grid_12">
+					<h3>我们的客户</h3>
+				</div>
+				<div class="companies">
+					<div class="grid_3">
+						<img src="images/xxsy.jpg" alt="" class="logo">
+						<div class="text1">潇湘书院</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/szhg.jpg" alt="" class="logo">
+						<div class="text1">苏州海关</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/lzw.jpg" alt="" class="logo">
+						<div class="text1">乐载网</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/sz.jpg" alt="" class="logo">
+						<div class="text1">神州数码捷通有限公司</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/sdtg.jpg" alt="" class="logo">
+						<div class="text1">苏大天宫</div>
+						<a href="#">合作案例</a>
+					</div>
+					
+					<div class="grid_3">
+						<img src="images/tgwl.jpg" alt="" class="logo">
+						<div class="text1">天宫网络</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/121.jpg" alt="" class="logo">
+						<div class="text1">易尔益</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/spc.jpg" alt="" class="logo" style="background-color:white">
+						<div class="text1">思必驰</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/dsh.jpg" alt="" class="logo">
+						<div class="text1">读书虎网上超市</div>
+						<a href="#">合作案例</a>
+					</div>
+					<div class="grid_3">
+						<img src="images/YO.jpg" alt="" class="logo">
+						<div class="text1">YO海淘</div>
+						<a href="#">合作案例</a>
 					</div>
 				</div>
 			</div>
@@ -127,10 +284,10 @@
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="slogan">
-						<h3>我们为<a onClick="goToByScroll('page4'); return false;" href="#"><em>客户</em></a>提供专业的软件系统定制<a onClick="goToByScroll('page3'); return false;" href="#"><span>服务</span></a></h3>
-						<div class="text1">
-                        苏州纵缤信息科技有限公司注册于2012年底，位于苏州工业园区国际科技园1期123D，注册资本100万人民币，主要专注于移动互联网，目前拥有12名全职的技术工程师。主要经营手机App定制，微信公众账号定制，主要客户有潇湘书院、苏州海关、苏州乐载网、苏州神州数码捷通有限公司、金螳螂装饰。公司法人兼总经理：张斌，2000年毕业于苏州大学计算机信息技术专业，移动互联网经验4年，从事技术开发10年多。
-						</div>
+						<h3>我们为客户提供专业的软件系统定制服务</h3>
+						<p class="text1" style="text-align:left;font-size:large">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;苏州纵缤信息科技有限公司注册于2012年底，位于苏州工业园区国际科技园1期123D，注册资本100万人民币，主要专注于移动互联网，目前拥有12名全职的技术工程师。公司法人兼总经理：张斌，2000年毕业于苏州大学计算机信息技术专业，从事技术开发10年多，2009年起从事移动互联网的开发。主要经营iOS APP定制开发与维护，Android APP定制开发与维护，微信公众账号定制开发与维护，网站定制开发与维护。主要客户有潇湘书院、苏州海关、乐载网、苏州神州数码捷通有限公司、苏大天宫、天宫网络、易尔益、思必驰、读书虎网上超市、YO海淘等。我们致力于为企业提供信息化解决方案，专注于企业信息化产品的研发与销售，并将ISO国际软件标准引入到研发团队中，为客户提供有品质保证的软件产品。我们的理念是：不断努力成为中国知名的软件品牌，通过优质服务和持续创新，创造软件服务新体验。
+						</p>
 					</div>
 				</div>
 				<div class="grid_3">
@@ -183,107 +340,13 @@
 				</div>
 			</div>
 		</div>
-		<div id="page3" class="content">
-			<div class="container_12">
-				<div class="grid_12">
-					<div class="slogan">
-						<h3>我们的服务</h3>
-						<div class="text1">
-							手机App定制，微信公众账号定制，各种软件系统的定制，各种游戏定制
-						</div>
-					</div>
-				</div>
-				<div class="grid_3">
-					<div class="box maxheight1">
-						<img src="images/box1_img1.png" alt="">
-						<div class="text1"><a href="#">IOS软件</a></div>基于Apple IOS操作系统的app
-					</div>
-				</div>
-				<div class="grid_3">
-					<div class="box maxheight1">
-						<img src="images/box1_img2.png" alt="">
-						<div class="text1"><a href="#">Android软件</a></div>基于Google Android操作系统的app
-					</div>
-				</div>
-				<div class="grid_3">
-					<div class="box maxheight1">
-						<img src="images/box1_img3.png" alt="">
-						<div class="text1"><a href="#">PC软件</a></div>基于Windows或者Mac桌面操作系统的软件
-					</div>
-				</div>
-				<div class="grid_3">
-					<div class="box maxheight1">
-						<img src="images/box1_img4.png" alt="">
-						<div class="text1"><a href="#">微信开发</a></div>基于腾讯微信开发的第三方应用
-					</div>
-				</div>
-			</div>
-		</div>
-		<div id="page4" class="content">
-			<div class="container_12">
-				<div class="grid_12">
-					<h3>我们的客户</h3>
-				</div>
-				<div class="companies">
-					<div class="grid_3">
-						<img src="images/logo1.jpg" alt="">
-						<div class="text1">潇湘书院</div>Aliquam nibh ante, egestas id dictum  wrecommodo luctus liberoaesent.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo2.jpg" alt="">
-						<div class="text1">苏州海关</div>Fusce adipiscing quam id risus gittis, non consequat lacus interdumoin.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo3.jpg" alt="">
-						<div class="text1">苏州乐载网</div>Quisque viverra nulla nunc, eu ultrices wertlibero ultricies egetasellus um.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo4.jpg" alt="">
-						<div class="text1">金螳螂装饰</div>Courrewerwe abitur vel lorem sit amet ulla ullamcorper fermentumn vitae.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="clear"></div>
-					<div class="grid_3">
-						<img src="images/logo5.jpg" alt="">
-						<div class="text1">苏州神州数码捷通有限公司</div>Oiliquam nibh ante, egestas id dictum  wrecommodo luctus liberoaesente.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo6.jpg" alt="">
-						<div class="text1">索尼</div>Gusce adipiscing quam id risus gittis, non consequat lacus interdumoiju.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo7.jpg" alt="">
-						<div class="text1">大众</div>Niuisque viverra nulla nunc, eu ultrices wertlibero ultricies egetasellus ol.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-					<div class="grid_3">
-						<img src="images/logo8.jpg" alt="">
-						<div class="text1">杰士邦</div>Fouerourrewerwe abitur vel lorem sit amet ulla ullamcorper fermentum.
-						<br>
-						<a href="#">合作案例</a>
-					</div>
-				</div>
-			</div>
-		</div>
 		<div id="page5" class="content">
 			<div class="container_12">
 				<div class="grid_12">
 					<div class="slogan">
 						<h3>联系我们</h3>
 						<div class="text1">
-							新老客户，遇到任何问题，请联系我们。
+							新老客户，遇到任何问题，均可告知我们。
 						</div>
 					</div>
 				</div>
@@ -331,5 +394,6 @@
 				<div class="clear"></div>
 			</div>
 		</footer>
+	  </div>
 	</body>
 </html>
