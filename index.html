@@ -4,23 +4,6 @@
 	   <script src="js/jquery-1.6.js" type="text/javascript"></script>
        <script src="js/cookiesHelper.js" type="text/javascript"></script>
        <script src="js/dict.js" type="text/javascript"></script>
-       <script type="text/javascript">
-          function chgLang() {
-          	if ($("#ddlSomoveLanguage option:selected").val() == "en") {
-                  var body1= setEnglish($("#body1").html());
-                  var body2= setEnglish($("#body2").html());
-                  $("#body1").html(body1);
-                  $("#body2").html(body2);
-              }
-            else if ($("#ddlSomoveLanguage option:selected").val() == "ch") {
-                  var body1= setChinese($("#body1").html());
-                  var body2= setChinese($("#body2").html());
-                  $("#body1").html(body1);
-                  $("#body2").html(body2);
-              }
-          }
-          
-       </script>
 	    <link rel="stylesheet" type="text/css" href="css/zzsc.css" />
         <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
 		<meta charset="utf-8">
@@ -117,12 +100,6 @@
 					</div>
 				</div>
 				<div class="clear"></div>
-			</div>
-			<div style="float:right;width:80px;margin-top:-100px;margin-right:20px">
-				<select id="ddlSomoveLanguage" onchange="return chgLang();">
-                   <option value="ch">中文</option>
-                   <option value="en">English</option>
-               </select>
 			</div>
 		</header>
 
