@@ -1,0 +1,6 @@
+kddx_android_app 口袋大学安卓客户端下载二维码
+kddx_ios_app 苹果客户端下载二维码
+kddx_app 客户端具体页面
+kddx_web 口袋大学web端页面
+
+口袋大学网址：http://www.mcamp.cn/product.php
