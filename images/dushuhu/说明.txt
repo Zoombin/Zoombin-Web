@@ -1,7 +1,0 @@
-dsh_web图片是读书虎web端网站
-dsh_download是客户端下载二维码
-dsh_APP是客户端下载页面
-dsh_weixin是小虎子的微信公众账号
-duh_app是手机客户端的具体页面
-
-读书虎网址：dushuhu.me

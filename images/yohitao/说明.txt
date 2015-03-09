@@ -1,5 +1,0 @@
-yht_app 优海淘手机页面二维码
-yht_weixin 优海淘微信账号二维码
-yht_web 优海淘web端页面
-
-优海淘网址：yohitao.com

@@ -1,5 +1,0 @@
-121_app_download 客户端下载页面  http://cloud.joy121.com/app/app.html
-
-121_app_download_code 客户端下载二维码
-
-121云福利网址：cloud.joy121.com
