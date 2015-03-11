@@ -54,18 +54,18 @@ var zj760 = {
 				}
 				var i = 0;
 				$('.ad_wrap1 .wenzi1').animate({
-					'top': '39px'
+					'top': '80px'
 				}, 500, 'easeOutBack', function() {
 					$('.ad_wrap1 .ren1').animate({
-						'top': '467px'
+						'top': '380px'
 					}, 500, 'easeOutBack', function() {
 						$('.ad_wrap1 .hua1 img').fadeIn(1500);
 						$('.ad_wrap1 .ren2').animate({
-							'top': '207px'
+							'top': '165px'
 						}, 500, 'easeOutBack', function() {
 							$('.ad_wrap1 .hua2 img').fadeIn(1500);
 							$('.ad_wrap1 .ren3').animate({
-								'top': '460px'
+								'top': '368px'
 							}, 500, 'easeOutBack', function() {
 								$('.ad_wrap1 .hua3 img').fadeIn(500, function() {
 									$('.wenhao img').addClass('addw').show();
@@ -119,13 +119,13 @@ var zj760 = {
 				});
 				$('.ad_wrap2 .shu img').show();
 				$('.ad_wrap2 .wenzi').animate({
-					'top': 0
+					'top': '70px','left':'211.6px'
 				}, 500, 'easeOutBack', function() {
 					$('.ad_wrap2 .shu').animate({
 						'right': '0px'
 					}, 250, 'easeOutBack');
 					$('.ad_wrap2 .diannao').animate({
-						'left': '285px'
+						'left': '163px'
 					}, 100, function() {
 						$('.ad_wrap2 .ren1 img').fadeIn(500, function() {
 							$('.ad_wrap2 .pao1 img').fadeIn(500, function() {
@@ -170,8 +170,15 @@ var zj760 = {
 
 		}
 		if (num == 3) {
-
-
+//
+//.ad_wrap3 div{ position: absolute;}
+//.ad_wrap3 .wenzi{ left: 0; top: 31px;}
+//.ad_wrap3 .ren1{ right: 0; top: 215px;z-index: 2;}
+//.ad_wrap3 .shu{ left: 36px; top: 408px;}
+//.ad_wrap3 .touying{ left: 148px; top: 434px; z-index: 2;}
+//.ad_wrap3 .guang{ left: 231px; top: 292px;}
+//.ad_wrap3 .ban{ left: 235px; top: 96px;}
+//.ad_wrap3 .wenzi2{ left: 283px; top: 186px;}
 
 			$('.ad_wrap3 .wenzi').css('top', '-539px');
 			$('.ad_wrap3 .ban').css('top', '-539px');
@@ -191,19 +198,19 @@ var zj760 = {
 			}
 			var i = 0;
 			$('.ad_wrap3 .wenzi').animate({
-				'top': 0
+				'top': '68px','left':'116px'
 			}, 500, 'easeOutBack', function() {
 				$('.ad_wrap3 .ban').animate({
-					'top': '131px'
+					'top': '138px'
 				}, 500, 'easeOutBack', function() {
 					$('.ad_wrap3 .ren1').animate({
 						'right': '0px'
 					}, 500, 'easeOutBack');
 					$('.ad_wrap3  .shu').animate({
-						'left': '46px'
+						'left': '36px'
 					}, 500, 'easeOutBack', function() {
 						$('.ad_wrap3  .touying').animate({
-							'left': '186px'
+							'left': '183px'
 						}, 500, 'easeOutBack', function() {
 							$('.ad_wrap3 .guang img').fadeIn(500, function() {
 								timer4 = setInterval(function() {
@@ -236,7 +243,15 @@ var zj760 = {
 		}
 		if (num == 4) {
 
-
+//.ad_wrap4 div{ position: absolute;}
+//.ad_wrap4 .bian{ left: 156px; top: 170px;}
+//.ad_wrap4 .wenzi{ right: 0; top: 20px;}
+//.ad_wrap4 .ren1{ left: 0px; top:181px;}
+//.ad_wrap4 .app1{ left: 359px; top: 119px; z-index: 2;}
+//.ad_wrap4 .app2{ right: 0px; top: 197px;}
+//.ad_wrap4 .web{ right: 0px; top: 418px;}
+//.ad_wrap4 .wx{ left: 263px; top: 360px;}
+//.ad_wrap4 .bi{ left: 680px; top: 85px; z-index: 3;}
 
 
 			$('.ad_wrap4  img').hide();
@@ -266,39 +281,39 @@ var zj760 = {
 						'width': '756px'
 					}, 1500);
 					$('.ad_wrap4 .bi').animate({
-						'left': '449px',
-						'top': '149px'
+						'left': '359px',
+						'top': '119px'
 					}, 200, 'easeOutBack', function() {
 						$('.ad_wrap4 .bi').animate({
-							'left': '309px',
-							'top': '451px'
+							'left': '247px',
+							'top': '361px'
 						}, 300, function() {
 							$('.ad_wrap4 .bi').animate({
-								'left': '700px',
-								'top': '573px'
+								'left': '560px',
+								'top': '458px'
 							}, 300, function() {
 								$('.ad_wrap4 .bi').animate({
-									'left': '800px',
-									'top': '309px'
+									'left': '640px',
+									'top': '247px'
 								}, 300, function() {
 									$('.ad_wrap4 .bi').animate({
-										'left': '850px',
-										'top': '109px'
+										'left': '695px',
+										'top': '112px'
 									}, 300, function() {
 										$('.ad_wrap4 .app1').animate({
-											'left': '449px'
+											'left': '359px'
 										}, 100, 'easeOutBack', function() {
 											$('.ad_wrap4 .wx').animate({
-												'left': '309px'
+												'left': '279px'
 											}, 200, 'easeOutBack', function() {
 												$('.ad_wrap4 .web').animate({
 													'right': '0px'
 												}, 300, 'easeOutBack', function() {
 													$('.ad_wrap4 .app2').animate({
-														'right': '0px'
+														'right': '-70px'
 													}, 400, 'easeOutBack', function() {
 														$('.ad_wrap4 .wenzi').animate({
-															'top': '25px'
+															'top': '60px','right':'105px'
 														}, 250, 'easeOutBack');
 													});
 												});
@@ -335,7 +350,7 @@ var zj760 = {
 
 
 				$('.ad_wrap5 .wenzi').animate({
-					'top': '0px'
+					'top': '42px','left':'241px'
 				}, 500, 'easeOutBack', function() {
 					$('.ad_wrap5 .clbg img,.ad_wrap5 .cljj img,.ad_wrap5 .clds img,.ad_wrap5 .cljy img ,.ad_wrap5 .clfc img,.ad_wrap5 .clyl img')
 						.fadeIn(500, function() {
@@ -343,7 +358,7 @@ var zj760 = {
 							$('.ad_wrap5 .yun img').fadeIn(500, function() {
 
 								$('.ad_wrap5 .xian').animate({
-									'width': '1025px'
+									'width': '820px'
 								}, 500, function() {
 									$('.ad_wrap5 .xian img').eq(0).fadeIn(50, function() {
 										$('.ad_wrap5 .cl img').eq(0).fadeIn(50).addClass('addw').addClass('xz');
@@ -407,10 +422,10 @@ var zj760 = {
 											$('.ad_wrap6 .wenzi2 img').eq(1).fadeIn(150, function() {
 												$('.ad_wrap6 .wenzi2 img').eq(2).fadeIn(150, function() {
 													$('.ad_wrap6 .ren2').animate({
-														'left': '377px'
+														'left': '348px'
 													}, 500, function() {
 														$('.ad_wrap6 .wz').animate({
-															'top': '567px'
+															'top': '470px'
 														}, 250, 'easeOutBack');
 													})
 
@@ -458,32 +473,32 @@ var zj760 = {
 				$('.ad_wrap7 .shou').css('right', '-500px');
 				$('.ad_wrap7 .wz img,.ad_wrap7 .qian img,.ad_wrap7 .shou img,.ad_wrap7 .huojian img').show();
 				$('.ad_wrap7 .wz').animate({
-					'top': '0px'
+					'top': '65px','left':'188px'
 				}, 500, 'easeOutBack', function() {
 					$('.ad_wrap7 .huojian').animate({
-						'bottom': $(window).height() - 34 - 253
+						'bottom': $(window).height() - 34 - 203
 					}, 1000, 'easeInQuad', function() {
 						zj760.data.timer2 = setInterval(function() {
 							if (i % 2 == 0) {
 								$('.ad_wrap7 .huojian').animate({
-									'bottom': $(window).height() - 34 - 253 + 2
+									'bottom': $(window).height()- 34-203 + 2
 								}, 150, 'easeInQuad');
 							} else {
 								$('.ad_wrap7 .huojian').animate({
-									'bottom': $(window).height() - 34 - 253 - 2
+									'bottom': $(window).height() - 34 - 203- 2
 								}, 150, 'easeInQuad');
 							}
 							i++;
 						}, 1000);
-
+						$('.ad_wrap7 .shou').addClass('addw2');
 						$('.ad_wrap7 .shou').animate({
-							'right': '0px'
+							'right': '-80px'
 						}, 500, 'easeOutBack', function() {
 							zj760.data.timer3 = setInterval(function() {
 								
 									 timer6=setInterval(function(){
 										if (k % 2 == 0) {
-													$('.ad_wrap7 .shou').removeClass('xz3').addClass('xz4');
+													$('.ad_wrap7 .shou').removeClass('xz3').addClass('xz4')
 												} else {
 													$('.ad_wrap7 .shou').removeClass('xz4').addClass('xz3');
 												}
@@ -493,10 +508,10 @@ var zj760 = {
 											k=0;
 											clearInterval(timer6);
 										}
-									},50)	
+									},500)	
 								
 								
-							}, 2500);
+							}, 3000);
 						})
 					});
 					$('.ad_wrap7 .qian').animate({
@@ -520,8 +535,13 @@ var zj760 = {
 		if (loadtimer != null) {
 			clearTimeout(loadtimer);
 		}
-		if (navigator.userAgent.indexOf("MSIE") != -1 || navigator.userAgent.indexOf("Firefox") != -1) {
-
+		//alert(navigator.userAgent.indexOf("MSIE"));
+		if ( navigator.userAgent.indexOf('Trident') > -1  || ( navigator.userAgent.indexOf('Gecko') > -1 &&  navigator.userAgent.indexOf('KHTML') == -1)) {
+				//alert(1);
+				var num=(Math.random(100)*100).toFixed(0);
+				
+				$('#loading_num').html(num);
+				$('#loading_progress').css('width', num* 160 * 0.01 + 'px');
 			loadtimer = setTimeout(function() {
 				$('#loading_num').html(100);
 				$('#loading_progress').css('width', 100 * 160 * 0.01 + 'px');
@@ -529,8 +549,9 @@ var zj760 = {
 				zj760.ad('');
 			}, 3000);
 		}
-
-		$('img').each(function() {
+		else{	
+			//alert(2);
+			$('img').each(function() {
 			//console.log(this);
 
 			$(this).load(function() {
@@ -550,22 +571,21 @@ var zj760 = {
 				$('#loading_num').html(newimg);
 				$('#loading_progress').css('width', newimg * 160 * 0.01 + 'px');
 			});
-
-
-
-
-
-
 		});
+		}
+	
 
 	},
 	init: function() {
-		$('body,.adbox,.wrap1').css('height', $(window).height());
+		$('body,.adbox').css({'height': $(window).height()});
+		
+			$('.wrap1,.wrap2,.wrap3,.wrap4,.wrap5,.wrap6,.wrap7').css({'height': $(window).height()});
+		
 		$('.J_prev').css({
-			'top': ($(window).height() - $('.J_prev').height()) / 2
+			'top': '200px'
 		});
 		$('.J_next').css({
-			'top': ($(window).height() - $('.J_next').height()) / 2
+			'top': '200px'
 		})
 
 		var wwidth = $(window).width();
@@ -577,12 +597,10 @@ var zj760 = {
 		var objsize = zj760.obj.find('li').length;
 		zj760.objwidth = wwidth * objsize;
 		zj760.obj.find('li').css({
-			'width': wwidth,
-			'height': $(window).height()
+			'width': wwidth
 		})
 		zj760.obj.css({
-			'width': zj760.objwidth,
-			'height': $(window).height()
+			'width': zj760.objwidth
 		});
 
 		zj760.event_click();
