@@ -1,0 +1,273 @@
+/**
+ * Created by Jiang share fone on 15-03-11
+ */
+html{color:#898989; repeat;font-size: 12px;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;  }
+table{border-collapse:collapse;border-spacing:0}
+#header,body{z-index:1;}
+fieldset,img{border:0;vertical-align:top;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+i{ font-style:normal;}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+
+.clearfix:after {content: "."; display: block;height: 0;clear: both; visibility: hidden;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+
+.ft-L{float: left;}
+.ft-r{float: right;}
+
+body{ width: 100%; overflow: hidden;}
+html
+{
+overflow: hidden;
+}
+
+.addw{
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+     }
+     
+ .add2{
+  -webkit-transform:scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5) }     
+.add{
+  -webkit-transform:scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  transform: scale(0.7) }
+
+.add2{
+  -webkit-transform:scale(0.5);
+  -moz-transform: scale(0.5);
+  -ms-transform: scale(0.5);
+  transform: scale(0.5) }  
+ .xz1{
+  -webkit-transform:rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+ 	
+ } 
+ 
+ .xz2{
+  -webkit-transform:rotate(-30deg);
+  -moz-transform: rotate(-30deg);
+  -ms-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+ 
+ }
+ 
+  .xz3{
+  -webkit-transform:rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  -ms-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+ }
+ 
+   .xz4{
+  -webkit-transform:rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  transform: rotate(1deg);
+ }
+ 
+
+.ad_wrap{ width: 100%; overflow: hidden;}
+.ad_wrap ul{  width: 100% ; position: absolute;}
+.ad_wrap ul li{}
+.ad_wrap ul li .logo{ left: 3.7037%;top:6.4549%; display: block;}
+.ad1{ width: 100%; height: 100%; margin: 0 auto; background: #35b7ad; text-align: center; position: relative;}
+.ad1 img{ position: absolute; }
+.ad1 img.ad1_wenzi{left:22.6%;top:17.4%;}
+.ad1 img.ad1_ren1{ left: 41.076%; top: 37.64%;}
+.ad1 img.ad1_ren2{left: 9.62%; top:58.31%}
+.ad1 img.ad1_ren3{ left: 43.48%; top: 75.765%;}
+.ad1 img.ad1_hua1{ left: 60.07%; top: 40.02%;}
+.ad1 img.ad1_hua2{ left: 30.095%; top: 61.53%;}
+.ad1 img.ad1_hua3{ left: 61.054%; top: 77.876%;}
+.ad1 img.ad1_wenhao1{left:14.1%;top:38.8%}
+.ad1 img.ad1_wenhao2{left:32.9%;top:33.8%}
+.ad1 img.ad1_wenhao3{left:63.3%;top:33.6%}
+.ad1 img.ad1_wenhao4{left:15.9%;top:50.1%}
+.ad1 img.ad1_wenhao5{left:34.4%;top:54.2%}
+.ad1 img.ad1_wenhao6{left:51.8%;top:56.0%}
+.ad1 img.ad1_wenhao7{left:62.9%;top:52.4%}
+.ad1 img.ad1_wenhao8{left:33.8%;top:71.5%}
+.ad1 img.ad1_wenhao9{left:62.3%;top:65.2%}
+.ad1 img.ad1_wenhao10{left:78.6%;top:63.4%}
+.ad1 img.ad1_wenhao11{left:20.7%;top:81.4%}
+
+
+
+.ad2{ width: 100%; height: 100%; margin: 0 auto; background: #e8b927; text-align: center; position: relative;}
+.ad2 img{ position: absolute;  display: none;}
+
+.ad2 img.ad2_wenzi{left:5.8%;top:17.3%}
+.ad2 img.ad2_ren1{left:9.6%;top:63.9%;}
+.ad2 img.ad2_pao1{left:19.5%;top:63.3%}
+.ad2 img.ad2_pao2{left:20.1%;top:62.3%}
+.ad2 img.ad2_pao3{left:19.3%;top:55.5%}
+.ad2 img.ad2_ren2{left:65.2%;top:62.6%}
+.ad2 img.ad2_deng{left:74.2%;top:54.6%}
+.ad2 img.ad2_diannao{left:35.7%;top:71.9%}
+.ad2 img.ad2_shu{left:14.8%;top:39.8%}
+.ad2 img.ad2_zhuan1{left:33.3%;top:59.4%}
+.ad2 img.ad2_zhuan2{left:33.3%;top:67.3%}
+
+
+.ad3 #J3_bz.hd { 
+-webkit-filter: grayscale(1);/* Webkit */ 
+filter:gray;/* IE6-9 */ 
+filter: grayscale(1);/* W3C */ 
+} 
+
+.ad3{ width: 100%; height: 100%; margin: 0 auto; background-color: #70b5bd; text-align: center; position: relative; display:none; overflow: hidden;}
+.ad3 img{ position: absolute; }
+
+.ad3  img.ad3_wenzi1{ left: 15.5%; top: 17.5%;}
+.ad3  img.ad3_ban{left:17.5%;top:31.8%}
+.ad3  img.ad3_wenzi2{left:24.9%;top:39.0%}
+.ad3  img.ad3_ren1{left:57.3%;top:59.3%}
+.ad3  img.ad3_guang{left:21.1%;top:48.8%}
+.ad3  img.ad3_touying{left:8%;top:71.9%}
+.ad3  img.ad3_shu{left:51.0%;top:75.0%;}
+
+
+.ad4{ width: 100%; height: 100%; margin: 0 auto; background-color: #e16045; text-align: center; position: relative; display:none; overflow: hidden;}
+.ad4 img{ position: absolute; }
+.ad4 img.ad4_wenzi1{left:33.2%;top:17.5%;}
+.ad4 img.ad4_xian{left:16.1%;top:34.8%;}
+.ad4 img.ad4_app1{left:36.3%;top:29.2%;}
+.ad4 img.ad4_app2{left:41.6%;top:51.3%;}
+.ad4 img.ad4_wx{left:17.2%;top:76.8%;}
+.ad4 img.ad4_web{left:54%;top:72.9%;}
+.ad4 img.ad4_ren1{left:7.5%;top:29.3%;}
+.ad4 img.ad4_bi{left:78.7%;top:45.6%;}
+
+
+
+.ad5{ width: 100%; height: 100%; margin: 0 auto; background-color: #8f7eb9; text-align: center; position: relative; display:none; overflow: hidden;}
+.ad5 img{ position: absolute; }
+.ad5 img.ad5_wenzi1{left:9.3%;top:17.5%;}
+.ad5 img.ad5_yun{left:12.3%;top:34%;}
+.ad5 img.ad5_clbg1{left:24.8%;top:45.9%;}
+.ad5 img.ad5_ds{left:24.8%;top:45.9%;}
+.ad5 img.ad5_clbg2{left:62.8%;top:45.2%;}
+.ad5 img.ad5_fc{left:62.8%;top:45.2%;}
+.ad5 img.ad5_clbg3{left:41.5%;top:57.5%;}
+.ad5 img.ad5_jy{left:41.5%;top:57.5%;}
+.ad5 img.ad5_clbg4{left:13.3%;top:62.7%;}
+.ad5 img.ad5_jj{left:13.3%;top:62.7%;}
+.ad5 img.ad5_clbg5{left:50.1%;top:71.9%;}
+.ad5 img.ad5_yl{left:50.1%;top:71.9%;}
+.ad5 img.ad5_cl1{left:14.0%;top:42.9%;}
+.ad5 img.ad5_cl2{left:51.5%;top:46.2%;}
+.ad5 img.ad5_cl3{left:17.3%;top:54.4%;}
+.ad5 img.ad5_cl4{left:75.6%;top:60.7%;}
+.ad5 img.ad5_cl5{left:34.8%;top:73.8%;}
+.ad5 img.ad5_cl6{left:76.8%;top:74.4%;}
+
+
+
+.ad6{ width: 100%; height: 100%; margin: 0 auto; background-color: #f5a917; text-align: center; position: relative; display:none; overflow: hidden;}
+.ad6 img{ position: absolute; }
+.ad6 img.ad6_zi2{left:9.6%;top:23.2%;}
+.ad6 img.ad6_zi1{left:6.4%;top:27.0%;}
+.ad6 img.ad6_ren1{left:34.2%;top:38.4%;}
+.ad6 img.ad6_ren2{left:19.2%;top:57.2%;}
+.ad6 img.ad6_wenzi1{left:15.6%;top:76.9%;}
+
+
+
+.ad7{ width: 100%; height: 100%; margin: 0 auto; background-color: #588fc0; text-align: center; position: relative; display:none; overflow: hidden;}
+.ad7 img{ position: absolute; }
+.ad7 img.ad7_wenzi{left:7.8%;top:17.5%;}
+.ad7 img.ad7_huojian{left:66.9%;top:36.5%;}
+.ad7 img.ad7_qian{left:8.3%;top:40.6%;}
+.ad7 img.ad7_shou{left:30.3%;top:60.6%;}
+
+		/*<img src="img/ad7_wenzi1.png" width="83.5%" class="ad7_wenzi"  />
+				<img src="img/ad7_huojian.png"  height="21.2%" class="ad7_huojian"  />
+				<img src="img/ad7_qian.png" width="42.9%" class="ad7_qian"  />
+				<img src="img/ad7_shou.png" width="51.9%" class="ad7_shou"  />*/
+
+
+#J_top{ position: absolute; bottom:2.8125% ; display: none;}
+
+#beforeload{ position: absolute; width: 100%; height: 100%; background: #ffcc52; opacity: 0.7; color: #ffffff; font-size: 68px; font-family: arial; text-align: center; }
+
+
+
+.xz {
+animation-name: myfirst;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+animation-direction: normal;
+animation-play-state: running;
+/* Firefox: */
+-moz-animation-name: myfirst;
+-moz-animation-duration: 5s;
+-moz-animation-timing-function: linear;
+-moz-animation-delay: 0s;
+-moz-animation-iteration-count: infinite;
+-moz-animation-direction: normal;
+-moz-animation-play-state: running;
+/* Safari 和 Chrome: */
+-webkit-animation-name: myfirst;
+-webkit-animation-duration: 5s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-delay: 0s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-webkit-animation-play-state: running;
+/* Opera: */
+-o-animation-name: myfirst;
+-o-animation-duration: 5s;
+-o-animation-timing-function: linear;
+-o-animation-delay: 0s;
+-o-animation-iteration-count: infinite;
+-o-animation-direction: normal;
+-o-animation-play-state: running;
+}
+
+
+@keyframes myfirst
+{
+from { transform: rotate(0deg);}
+to {transform: rotate(360deg);}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {-moz-transform: rotate(0deg);}
+to {-moz-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {-webkit-transform: rotate(0deg);}
+to {-webkit-transform: rotate(360deg);}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {-o-transform: rotate(0deg);}
+to {-o-transform: rotate(360deg);}
+}
+
+
